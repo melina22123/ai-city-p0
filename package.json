@@ -1,0 +1,38 @@
+{
+  "name": "ai-city-p0",
+  "version": "0.1.0",
+  "description": "P0 Systems for AI City - InspectorRegistry, NeedDef, Performance Architecture, Deterministic Save",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "ai-city",
+    "simulation",
+    "ecs",
+    "game-ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@godot-ts/core": "^1.0.0",
+    "seedrandom": "^3.0.5",
+    "binary-buffer": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/seedrandom": "^3.0.6",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0",
+    "eslint": "^8.55.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "prettier": "^3.1.0"
+  }
+}
